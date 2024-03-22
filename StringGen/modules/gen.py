@@ -40,11 +40,11 @@ async def gen_session(
     message, user_id: int, telethon: bool = False, old_pyro: bool = False
 ):
     if telethon:
-        ty = f"ᴛᴇʟᴇᴛʜᴏɴ"
+        ty = f"𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍"
     elif old_pyro:
-        ty = f"ᴩʏʀᴏɢʀᴀᴍ v1"
+        ty = f"𝐏𝐑𝐎𝐆𝐑𝐀𝐌 𝐕𝟏"
     else:
-        ty = f"ᴩʏʀᴏɢʀᴀᴍ v2"
+        ty = f"𝐏𝐑𝐎𝐆𝐑𝐀𝐌 𝐕𝟐"
 
     await message.reply_text(f"» ᴛʀʏɪɴɢ ᴛᴏ sᴛᴀʀᴛ {ty} sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ...")
 
